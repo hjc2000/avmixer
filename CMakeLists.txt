@@ -12,10 +12,6 @@ if(1)
 	set(CMAKE_C_STANDARD 17)
 endif()
 
-
-include(target_import_cli11)
-include(target_import_ffmpeg_wrapper)
-
 add_executable(${ProjectName} ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp)
 target_import_src(${ProjectName})
 target_import_cli11(${ProjectName} PUBLIC)
