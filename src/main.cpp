@@ -12,6 +12,7 @@ int main(int argc, char **argv)
 		std::string output_file_path;
 
 		CLI::App app{"将不同来源的一路视频流和一路音频流混合在一起。"};
+
 		app.add_option("--video_url",
 					   video_url,
 					   "视频源的 url")
