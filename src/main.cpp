@@ -1,7 +1,7 @@
-﻿#include <base/task/CancellationTokenSource.h>
-#include <CLI/CLI.hpp>
-#include <ffmpeg-wrapper/mux/AVMixer.h>
-#include <ffmpeg-wrapper/output-format/FileOutputFormat.h>
+﻿#include "base/task/CancellationTokenSource.h"
+#include "CLI/CLI.hpp"
+#include "ffmpeg-wrapper/mux/AVMixer.h"
+#include "ffmpeg-wrapper/output-format/FileOutputFormat.h"
 
 int main(int argc, char **argv)
 {
